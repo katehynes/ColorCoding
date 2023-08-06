@@ -1,0 +1,21 @@
+{
+  "name": "colorcoding",
+  "displayName": "ColorCoding",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ColorCoding",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ColorCoding-color-theme.json"
+      }
+    ]
+  }
+}
