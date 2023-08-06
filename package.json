@@ -1,20 +1,53 @@
 {
   "name": "colorcoding",
   "displayName": "ColorCoding",
-  "description": "",
+  "description": "ColorCoding – A set of 2 light and 3 dark themes for VS Code.",
+  "icon": "images/ColorCodingLogo.png",
+  "author": {
+    "name": "Kate Hynes"
+  },
+  "publisher": "kahynes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katehynes/ColorCoding"
+  },
+  "keywords": ["theme", "color"],
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.81.0"
+    "vscode": "^1.79.2"
   },
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "ColorCoding",
+        "label": "Dream",
         "uiTheme": "vs-dark",
-        "path": "./themes/ColorCoding-color-theme.json"
+        "path": "./themes/dream-color-theme.json"
+      },
+      {
+        "label": "Mango Mint",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mango_mint-color-theme.json"
+      },
+      {
+        "label": "Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/breeze-color-theme.json"
+      },
+      {
+        "label": "Cloud",
+        "uiTheme": "vs",
+        "path": "./themes/cloud-color-theme.json"
+      },
+      {
+        "label": "Plum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/plum-color-theme.json"
       }
     ]
   }
